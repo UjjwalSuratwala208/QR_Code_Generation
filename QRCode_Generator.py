@@ -11,7 +11,6 @@ data =  "https://www.bioxsystems.com/"
 #Define the name for the output image file
 img_outputfilename = "biox_systems_qr.png"
 
-
 #Defied the try and exception block for error handling
 try:
     # -- Step 3: Configure and Create the QRCode object : 
@@ -41,9 +40,8 @@ try:
      img.save(img_outputfilename)
     
     # -- Step 7: Print a success message to the console to confirm that the file was created.
-     print(f"✅ QR code successfully generated and saved as '{img_outputfilename}'")
+     print(" QR code successfully generated and saved as '{img_outputfilename}'")
      
-
 except Exception as e:
     # If any error occur while running the script, print an error message
     print("An error occured while generating the QR code: {e}")
