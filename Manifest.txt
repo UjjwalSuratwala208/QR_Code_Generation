@@ -1,0 +1,31 @@
+
+Manifest for: QR Code Generator (Python)
+Author: Ujjwal Suratwala
+Python Version: 3.x
+Email: ujjwalsuratwala20@gmail.com
+
+Description: 
+Simple script that turns a URL into a QR code PNG.
+
+Dependencies: 
+- Python 3.x
+- qrcode, 
+- pillow
+
+
+Files:
+- QRCode_Generator.py        # Main python Script
+- biox_systems_qr.png        # Output QR code image  
+- manifest.text              # Project Manifest  
+ 
+How to run:
+1) Ensure Python and requiered libraries installed.
+2) Open the terminal and Run the Script
+3) Run the script using the following command: python QRCode_Generator.py
+4) The QR Code image will be generated and it will be saved as 'biox_systems_qr.png'
+
+Output:
+- 'biox_systems_qr.png'
+
+
+
